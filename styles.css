@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition-duration: 0.4s;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ #chart_div {
+    width: 80vw;
+    height: 80vh;
+ }
+ #chart_div {
+        width: 450px;
+        margin: auto;
+        border: 2px solid #00d4ff;
+      
+        max-width: 450px;
+        margin: auto;
+        border: 2px solid #00d4ff;
+        background-color: white;
+        height: 300px;
+        animation: wrap 2s ease-in-out infinite;
+ }
+ *{
+    font-size: medium;
+ }
+ footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px; /* Adjust width as needed */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+p {
+    font-size: larger;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    animation: wrap 2s ease-in-out infinite;
+  }
+
+  @keyframes wrap {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+  }
+
+ /* Centered container */
